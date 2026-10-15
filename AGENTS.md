@@ -48,7 +48,9 @@ Releases of this package use the same version number as the npm release they mat
    The `parity` job in CI runs the same check against upstream `main`, so a failing job there means upstream has changes that are not ported yet.
 
 6. **Update the docs.** Mirror README changes from upstream into `README.md`, translated to PHP syntax (named arguments instead of an options object).
-7. **Update the sync state** table above.
+7. **Update the changelog.** Feature changes are documented in the Node changelog, so `CHANGELOG.md` only lists what is specific to PHP, such as a new intentional difference.
+   When releasing, use the same version number as the matching Node release.
+8. **Update the sync state** table above.
 
 Commit with the house style: a prefix (`ADD`, `IMP`, `DEL`, `FIX`, `UPD`), imperative mood, around 50 characters, e.g. `IMP Sync with props-builder 2.3.0`.
 
