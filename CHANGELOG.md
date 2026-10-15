@@ -9,10 +9,10 @@ This package is a port of the Node version, and each release has the same versio
 For the features and fixes in a release, see the [Node changelog](https://github.com/fylgja/fylgja/blob/main/props-builder/CHANGELOG.md).
 This changelog only lists the changes that are specific to the PHP version.
 
-## Unreleased
+## 2.3.0 - 2026-10-15
 
 ### Added
 
-- PHP port of the Props Builder, matching the Node version 2.2.0 and its Unreleased changes (Design Tokens 2025.10).
+- PHP port of the Props Builder, matching the Node version 2.3.0 (including Design Tokens 2025.10).
 - An `onWarning` option to handle warnings, such as skipped `dtcg` tokens. Defaults to `error_log()`.
 - `build()` returns the generated output, also when it writes the file.

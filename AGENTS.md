@@ -19,7 +19,7 @@ Update this table at the end of every sync.
 | | |
 | --- | --- |
 | Last synced upstream commit | `b391b2c` (ADD Support for the Design Tokens 2025.10 spec, merged in #413) |
-| Upstream npm version | `2.2.0`, plus the Unreleased changes in its CHANGELOG (Design Tokens 2025.10) |
+| Upstream npm version | `2.3.0` |
 
 Releases of this package use the same version number as the npm release they match.
 
