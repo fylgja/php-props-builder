@@ -42,7 +42,8 @@
         }
     },
     "scripts": {
-        "test": "phpunit"
+        "test": "phpunit",
+        "parity": "tests/parity/run.sh"
     },
     "config": {
         "sort-packages": true

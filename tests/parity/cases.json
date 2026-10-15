@@ -1,0 +1,102 @@
+[
+  {
+    "name": "props to css",
+    "filename": "tokens.css",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to css with a custom selector",
+    "filename": "tokens.css",
+    "options": { "selector": ".fylgja-test-zone" },
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to tailwind v4 theme",
+    "filename": "tokens.css",
+    "options": { "selector": "@theme" },
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to scss",
+    "filename": "tokens.scss",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to design tokens (legacy)",
+    "filename": "fylgja.tokens.json",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to figma tokens",
+    "filename": "fylgja.figma-tokens.json",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to figma tokens with a wrapper",
+    "filename": "fylgja.figma-tokens.sync.json",
+    "options": { "wrapper": "fylgja" },
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to style dictionary",
+    "filename": "fylgja.style-dictionary-tokens.json",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to json",
+    "filename": "props.json",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to mjs",
+    "filename": "props.js",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to cjs",
+    "filename": "props.cjs",
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to css-jit",
+    "filename": "tokens.js",
+    "options": { "parseAs": "css-jit" },
+    "inputFile": "props.json"
+  },
+  {
+    "name": "props to dtcg resolver",
+    "filename": "fylgja.resolver.json",
+    "options": { "name": "Fylgja", "description": "Fylgja tokens" },
+    "inputFile": "dtcg-props.json"
+  },
+  {
+    "name": "banner, stripPrefix and rename",
+    "filename": "tokens.css",
+    "options": { "banner": "/* Generated */", "stripPrefix": "tokens.values", "rename": { "colors": "color" } },
+    "input": { "tokens": { "values": { "colors": { "primary": "red" } } } }
+  },
+  {
+    "name": "figma tokens to css",
+    "filename": "tokens.css",
+    "options": { "inputTypeTokens": true, "inputTypeSyntax": "figma" },
+    "inputFile": "../fixtures/test.tokens.json"
+  },
+  {
+    "name": "stitch markdown to css",
+    "filename": "tokens.css",
+    "options": { "inputTypeTokens": true, "inputTypeSyntax": "stitch" },
+    "inputFile": "../fixtures/test.stitch.md"
+  },
+  {
+    "name": "design tokens 2025.10 to css",
+    "filename": "tokens.css",
+    "options": { "inputTypeTokens": true },
+    "inputFile": "dtcg-tokens.json"
+  },
+  {
+    "name": "design tokens resolver to css",
+    "filename": "tokens.css",
+    "options": { "inputTypeTokens": true },
+    "inputFile": "dtcg-resolver.json"
+  }
+]

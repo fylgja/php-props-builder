@@ -1,0 +1,22 @@
+{
+  "spacing": "0.25rem",
+  "size": { "1": "calc(var(--spacing) * 1)", "heading": "36ch" },
+  "gap": "var(--size-1)",
+  "layer": { "1": 1 },
+  "ratio": { "widescreen": "16/9" },
+  "duration": { "fast": "150ms" },
+  "ease": { "1": "cubic-bezier(0.25, 0.1, 0.1, 1)" },
+  "font": { "family": "'Inter', system-ui, sans-serif", "weight": 700, "weightName": "bold" },
+  "color": {
+    "hex": "#f008",
+    "rgb": "rgba(255, 0, 0, 0.5)",
+    "oklch": "oklch(70% 50% 200deg)",
+    "p3": "color(display-p3 1 0 none)"
+  },
+  "shadow-color": {
+    "DEFAULT": "hsl(0 0 0 / 10%)",
+    "-@": "@property --shadow-color { syntax: '<color>'; inherits: true; initial-value: black; }"
+  },
+  "shadow": { "1": "0 2px 1px -1px var(--shadow-color), inset 0 1px #000" },
+  "shadow-color-@media:dark": "hsl(220 40% 2% / 25%)"
+}
