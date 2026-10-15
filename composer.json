@@ -1,0 +1,50 @@
+{
+    "name": "fylgja/props-builder",
+    "description": "Effortlessly generate Design Tokens (CSS custom properties) from PHP arrays or JSON.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://fylgja.dev/",
+    "support": {
+        "issues": "https://github.com/fylgja/php-props-builder/issues",
+        "source": "https://github.com/fylgja/php-props-builder"
+    },
+    "keywords": [
+        "fylgja",
+        "css",
+        "scss",
+        "variables",
+        "custom properties",
+        "design-tokens",
+        "figma-tokens",
+        "style-dictionary"
+    ],
+    "authors": [
+        {
+            "name": "Fylgja",
+            "homepage": "https://fylgja.dev/"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fylgja\\PropsBuilder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fylgja\\PropsBuilder\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
