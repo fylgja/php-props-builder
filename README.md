@@ -1,6 +1,10 @@
 # Fylgja Props Builder for PHP
 
-[![License](https://img.shields.io/github/license/fylgja/fylgja?color=%23234)](https://github.com/fylgja/fylgja/blob/main/LICENSE)
+[![Fylgja](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffylgja%2F.github%2Frefs%2Fheads%2Fmain%2Fassets%2Fbadge%2Fv1.0.0.json)](https://fylgja.dev/)
+[![CI](https://img.shields.io/github/actions/workflow/status/fylgja/php-props-builder/test.yml?color=%230969da&label=&branch=main&logo=github&labelColor=%232b1c2c)](https://github.com/fylgja/php-props-builder/actions)
+[![Version](https://img.shields.io/packagist/v/fylgja/props-builder?color=%230969da&label=&logo=packagist&logoColor=white&labelColor=%232b1c2c)](https://packagist.org/packages/fylgja/props-builder)
+[![PHP](https://img.shields.io/packagist/dependency-v/fylgja/props-builder/php?color=%230969da&label=&logo=php&logoColor=white&labelColor=%232b1c2c)](https://packagist.org/packages/fylgja/props-builder)
+[![License](https://img.shields.io/github/license/fylgja/php-props-builder?color=%23ffb900&labelColor=%232b1c2c)](/LICENSE)
 
 A PHP port of [@fylgja/props-builder](https://www.npmjs.com/package/@fylgja/props-builder).
 It converts PHP arrays or JSON files into CSS custom properties, SCSS variables or Design Token files,
@@ -101,7 +105,7 @@ For example, `parseAs: 'json'` or `parseAs: 'css-jit'` gives the tokens as JSON,
 > The output is not escaped for HTML.
 > If the token values come from user input, such as colors set in an admin panel, a value containing `</style>` can break out of the tag.
 > Validate those values, or escape the `<` character before printing the output:
-> `str_replace('<', '\3C ', $css)` for CSS, and `str_replace('<', '<', $json)` for JSON.
+> `str_replace('<', '\3C ', $css)` for CSS, and `str_replace('<', '\u003c', $json)` for JSON.
 
 ### Use case: a theme set in the backend
 
