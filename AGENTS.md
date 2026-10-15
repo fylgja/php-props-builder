@@ -45,6 +45,8 @@ Releases of this package use the same version number as the npm release they mat
    composer parity            # or: tests/parity/run.sh /path/to/fylgja/props-builder
    ```
 
+   The `parity` job in CI runs the same check against upstream `main`, so a failing job there means upstream has changes that are not ported yet.
+
 6. **Update the docs.** Mirror README changes from upstream into `README.md`, translated to PHP syntax (named arguments instead of an options object).
 7. **Update the sync state** table above.
 
