@@ -143,7 +143,7 @@ When a new upstream change exposes another unavoidable difference, list it here 
 
 ## Code style
 
-- PHP 8.1 is the minimum, so no `readonly` classes or other 8.2+ features.
+- PHP 8.2 is the minimum, so no typed class constants or other 8.3+ features.
 - `declare(strict_types=1);`, PSR-12 with 4 space indents, the Fylgja license header on top of every file.
 - A docblock on every function: a short description, `@param` and `@return`. Comment why, not what.
 - Classes are `final` with static methods, the same shape as the plain functions upstream.
