@@ -9,6 +9,12 @@ This package is a port of the Node version, and each release has the same versio
 For the features and fixes in a release, see the [Node changelog](https://github.com/fylgja/fylgja/blob/main/props-builder/CHANGELOG.md).
 This changelog only lists the changes that are specific to the PHP version.
 
+## Unreleased
+
+### Changed
+
+- Require PHP 8.2 or newer, support for PHP 8.1 is dropped.
+
 ## 2.3.0 - 2026-10-15
 
 ### Added

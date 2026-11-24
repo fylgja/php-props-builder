@@ -18,7 +18,7 @@ The output matches the JavaScript version, so both can be used side by side.
 composer require fylgja/props-builder
 ```
 
-Requires PHP 8.1 or newer.
+Requires PHP 8.2 or newer.
 
 ## Usage
 
